@@ -47,7 +47,7 @@
 &kp LA(TAB)  &kp DA_EXCLAMATION  &kp DA_AT_SIGN     &kp DA_HASH  &kp DA_DOLLAR        &kp DA_PERCENT      &kp DA_AMPERSAND  &kp DA_CARET          &kp DA_PIPE               &kp DA_EQUAL        &kp DA_QUESTION       &kp DA_A_RING
 &kp LSHIFT   &kp DA_LESS_THAN    &kp DA_LEFT_BRACE  &kp LPAR     &kp DA_LEFT_BRACKET  &kp DA_BACKSLASH    &kp DA_SLASH      &kp DA_RIGHT_BRACKET  &kp DA_RIGHT_PARENTHESIS  &kp DA_RIGHT_BRACE  &kp DA_GREATER_THAN   &kp DA_AE
 &kp LCTRL    &trans              &trans             &trans       &trans               &kp GRAVE           &kp DA_ACUTE      &trans                &kp DA_TILDE              &kp PLUS            &kp DA_DOUBLE_QUOTES  &kp DA_O_SLASH
-                                                    &kp LGUI     &trans               &kp SPACE           &kp RIGHT_SHIFT   &trans                &kp LSHFT
+                                                    &kp LGUI     &trans               &kp SPACE           &kp ENTER         &trans                &kp LSHFT
             >;
         };
 
