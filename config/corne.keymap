@@ -30,7 +30,7 @@
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp E         &kp R         &kp T        &kp Y    &kp U  &kp I            &kp O          &kp P         &kp BSPC
 &mo 1      &kp A  &kp S  &kp D         &kp F         &kp G        &kp H    &kp J  &kp K            &kp L          &kp DA_AE     &kp DA_O_SLASH
-&kp LCTRL  &kp Z  &kp X  &kp C         &kp V         &kp B        &kp N    &kp M  &kp DA_COMMA     &kp DA_PERIOD  &kp DA_MINUS  &kp ESC
+&kp LCTRL  &kp Z  &kp X  &kp C         &kp V         &kp B        &kp N    &kp M  &kp DA_COMMA     &kp DA_PERIOD  &kp DA_COLON  &kp ESC
                          &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE    &kp RET  &mo 2  &kp RIGHT_SHIFT
             >;
         };
@@ -43,10 +43,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB     &kp DA_EXCLAMATION  &kp DA_AT_SIGN     &kp DA_HASH  &kp DA_DOLLAR        &kp DA_PERCENT      &kp DA_AMPERSAND  &kp DA_CARET          &kp DA_PIPE               &kp DA_EQUAL        &kp DA_COLON         &kp DA_QUESTION
-&kp LSHIFT  &kp DA_LESS_THAN    &kp DA_LEFT_BRACE  &kp LPAR     &kp DA_LEFT_BRACKET  &kp DA_BACKSLASH    &kp DA_SLASH      &kp DA_RIGHT_BRACKET  &kp DA_RIGHT_PARENTHESIS  &kp DA_RIGHT_BRACE  &kp DA_GREATER_THAN  &kp DA_A_RING
-&kp LCTRL   &trans              &trans             &trans       &trans               &kp GRAVE           &kp DA_ACUTE      &trans                &kp DA_TILDE              &kp PLUS            &kp DA_UNDERSCORE    &kp DA_O_SLASH
-                                                   &kp LGUI     &trans               &kp SPACE           &kp ENTER         &trans                &kp LSHFT
+&kp TAB     &kp DA_EXCLAMATION  &kp DA_AT_SIGN     &kp DA_HASH  &kp DA_DOLLAR        &kp DA_PERCENT      &kp DA_AMPERSAND   &kp DA_CARET          &kp DA_PIPE               &kp DA_EQUAL        &kp DA_SQT            &kp DA_QUESTION
+&kp LSHIFT  &kp DA_LESS_THAN    &kp DA_LEFT_BRACE  &kp LPAR     &kp DA_LEFT_BRACKET  &kp DA_BACKSLASH    &kp DA_SLASH       &kp DA_RIGHT_BRACKET  &kp DA_RIGHT_PARENTHESIS  &kp DA_RIGHT_BRACE  &kp DA_GREATER_THAN   &kp DA_A_RING
+&kp LCTRL   &trans              &trans             &trans       &trans               &kp GRAVE           &kp DA_UNDERSCORE  &kp DA_MINUS          &kp DA_PLUS               &kp DA_ASTERISK     &kp DA_DOUBLE_QUOTES  &kp DA_TILDE
+                                                   &kp LGUI     &trans               &kp SPACE           &kp ENTER          &trans                &kp LSHFT
             >;
         };
 
@@ -67,10 +67,10 @@
 
         layer_3 {
             bindings = <
-&trans  &kp F1           &kp F2           &kp F3           &kp F4           &kp F5                           &kp F6            &kp F7           &kp F8           &kp F9        &kp F10       &kp PRINTSCREEN
-&trans  &kp F11          &kp F12          &trans           &trans           &trans                           &bt BT_SEL 0      &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
-&trans  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &rgb_ug RGB_COLOR_HSB(0,0,79)    &trans            &trans           &trans           &trans        &trans        &trans
-                                          &trans           &trans           &trans                           &kp C_PLAY_PAUSE  &kp C_VOLUME_UP  &kp C_VOLUME_UP
+&trans  &kp F1           &kp F2           &kp F3           &kp F4           &kp F5                           &kp F6            &kp F7        &kp F8        &kp F9        &kp F10       &kp PRINTSCREEN
+&trans  &kp F11          &kp F12          &trans           &trans           &trans                           &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
+&trans  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &rgb_ug RGB_COLOR_HSB(0,0,79)    &trans            &trans        &trans        &trans        &trans        &trans
+                                          &trans           &trans           &trans                           &kp C_PLAY_PAUSE  &trans        &trans
             >;
         };
     };
