@@ -28,9 +28,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E         &kp R         &kp T        &kp Y    &kp U  &kp I            &kp O          &kp P         &kp BSPC
-&mo 1      &kp A  &kp S  &kp D         &kp F         &kp G        &kp H    &kp J  &kp K            &kp L          &kp DA_AE     &kp DA_O_SLASH
-&kp LCTRL  &kp Z  &kp X  &kp C         &kp V         &kp B        &kp N    &kp M  &kp DA_COMMA     &kp DA_PERIOD  &kp DA_COLON  &kp ESC
+&kp TAB    &kp Q  &kp W  &kp E         &kp R         &kp T        &kp Y    &kp U  &kp I            &kp O          &kp P       &kp BSPC
+&mo 1      &kp A  &kp S  &kp D         &kp F         &kp G        &kp H    &kp J  &kp K            &kp L          &kp DA_AE   &kp DA_O_SLASH
+&kp LCTRL  &kp Z  &kp X  &kp C         &kp V         &kp B        &kp N    &kp M  &kp DA_COMMA     &kp DA_PERIOD  &kp DA_SQT  &kp ESC
                          &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE    &kp RET  &mo 2  &kp RIGHT_SHIFT
             >;
         };
@@ -43,9 +43,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp DA_EXCLAMATION  &kp DA_AT_SIGN     &kp DA_HASH              &kp DA_DOLLAR        &kp DA_PERCENT      &kp DA_AMPERSAND   &kp DA_CARET          &kp DA_PIPE               &kp DA_EQUAL        &kp DA_QUESTION      &kp DA_SQT
+&kp TAB    &kp DA_EXCLAMATION  &kp DA_AT_SIGN     &kp DA_HASH              &kp DA_DOLLAR        &kp DA_PERCENT      &kp DA_AMPERSAND   &kp DA_CARET          &kp DA_PIPE               &kp DA_EQUAL        &kp DA_QUESTION      &trans
 &trans     &kp DA_LESS_THAN    &kp DA_LEFT_BRACE  &kp DA_LEFT_PARENTHESIS  &kp DA_LEFT_BRACKET  &kp DA_BACKSLASH    &kp DA_SLASH       &kp DA_RIGHT_BRACKET  &kp DA_RIGHT_PARENTHESIS  &kp DA_RIGHT_BRACE  &kp DA_GREATER_THAN  &kp DA_A_RING
-&kp LCTRL  &trans              &trans             &trans                   &trans               &kp GRAVE           &kp DA_UNDERSCORE  &kp DA_MINUS          &kp DA_PLUS               &kp DA_ASTERISK     &kp DA_TILDE         &kp DA_DOUBLE_QUOTES
+&kp LCTRL  &trans              &trans             &trans                   &trans               &kp GRAVE           &kp DA_UNDERSCORE  &kp DA_MINUS          &kp DA_PLUS               &kp DA_TILDE        &kp DA_DQT           &trans
                                                   &kp LGUI                 &kp LSHFT            &kp SPACE           &kp ENTER          &trans                &kp RIGHT_SHIFT
             >;
         };
