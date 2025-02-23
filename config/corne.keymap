@@ -45,7 +45,7 @@
             bindings = <
 &kp TAB    &kp DA_EXCLAMATION  &kp DA_AT_SIGN     &kp DA_HASH              &kp DA_DOLLAR        &kp DA_PERCENT      &kp CARET          &kp DA_AMPERSAND      &kp DA_PIPE               &kp DA_EQUAL        &kp DA_QUESTION      &trans
 &trans     &kp DA_LESS_THAN    &kp DA_LEFT_BRACE  &kp DA_LEFT_PARENTHESIS  &kp DA_LEFT_BRACKET  &kp DA_BACKSLASH    &kp DA_SLASH       &kp DA_RIGHT_BRACKET  &kp DA_RIGHT_PARENTHESIS  &kp DA_RIGHT_BRACE  &kp DA_GREATER_THAN  &kp DA_A_RING
-&kp LCTRL  &trans              &kp DA_SEMICOLON   &kp DA_ACUTE             &kp DA_ASTRK         &kp DA_TILDE        &kp DA_UNDERSCORE  &kp DA_MINUS          &kp DA_PLUS               &kp DA_COLON        &kp DA_DQT           &trans
+&kp LCTRL  &trans              &kp DA_ACUTE       &kp DA_TILDE             &kp DA_ASTRK         &kp DA_PLUS         &kp DA_UNDERSCORE  &kp DA_MINUS          &kp DA_SEMICOLON          &kp DA_COLON        &kp DA_DQT           &trans
                                                   &kp LGUI                 &kp LSHFT            &kp SPACE           &kp ENTER          &trans                &kp RIGHT_SHIFT
             >;
         };
