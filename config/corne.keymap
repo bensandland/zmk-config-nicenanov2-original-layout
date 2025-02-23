@@ -43,9 +43,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp DA_EXCLAMATION  &kp DA_AT_SIGN     &kp DA_HASH              &kp DA_DOLLAR        &kp DA_PERCENT      &kp DA_AMPERSAND   &kp DA_CARET          &kp DA_PIPE               &kp DA_EQUAL        &kp DA_QUESTION      &trans
+&kp TAB    &kp DA_EXCLAMATION  &kp DA_AT_SIGN     &kp DA_HASH              &kp DA_DOLLAR        &kp DA_PERCENT      &kp CARET          &kp DA_AMPERSAND      &kp DA_PIPE               &kp DA_EQUAL        &kp DA_QUESTION      &trans
 &trans     &kp DA_LESS_THAN    &kp DA_LEFT_BRACE  &kp DA_LEFT_PARENTHESIS  &kp DA_LEFT_BRACKET  &kp DA_BACKSLASH    &kp DA_SLASH       &kp DA_RIGHT_BRACKET  &kp DA_RIGHT_PARENTHESIS  &kp DA_RIGHT_BRACE  &kp DA_GREATER_THAN  &kp DA_A_RING
-&kp LCTRL  &trans              &trans             &trans                   &kp DA_ACUTE         &kp DA_TILDE        &kp DA_UNDERSCORE  &kp DA_MINUS          &kp DA_PLUS               &kp DA_COLON        &kp DA_DQT           &trans
+&kp LCTRL  &trans              &trans             &trans                   &kp DA_ASTRK         &kp DA_TILDE        &kp DA_UNDERSCORE  &kp DA_MINUS          &kp DA_PLUS               &kp DA_COLON        &kp DA_DQT           &trans
                                                   &kp LGUI                 &kp LSHFT            &kp SPACE           &kp ENTER          &trans                &kp RIGHT_SHIFT
             >;
         };
@@ -58,9 +58,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESC        &kp DA_N1  &kp DA_N2  &kp DA_N3  &kp DA_N4  &kp DA_N5    &kp DA_N6       &kp DA_N7       &kp DA_N8    &kp DA_N9        &kp N0  &kp DEL
-&kp LSHFT      &trans     &trans     &trans     &trans     &trans       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP       &kp RIGHT_ARROW  &trans  &trans
-&kp LA(LCTRL)  &trans     &trans     &trans     &trans     &trans       &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP  &kp END          &trans  &kp INS
+&kp TAB        &kp DA_N1  &kp DA_N2  &kp DA_N3  &kp DA_N4  &kp DA_N5    &kp DA_N6       &kp DA_N7       &kp DA_N8    &kp DA_N9        &kp N0  &trans
+&kp LSHFT      &trans     &trans     &trans     &trans     &trans       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP       &kp RIGHT_ARROW  &trans  &kp INS
+&kp LA(LCTRL)  &trans     &trans     &trans     &trans     &trans       &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP  &kp END          &trans  &kp DELETE
                                      &kp LGUI   &mo 3      &kp SPACE    &kp RET         &trans          &trans
             >;
         };
