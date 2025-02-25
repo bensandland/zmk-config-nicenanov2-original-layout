@@ -58,9 +58,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB        &kp DA_N1  &kp DA_N2  &kp DA_N3  &kp DA_N4  &kp DA_N5    &kp DA_N6       &kp DA_N7       &kp DA_N8    &kp DA_N9        &kp N0  &trans
+&kp TAB        &kp DA_N1  &kp DA_N2  &kp DA_N3  &kp DA_N4  &kp DA_N5    &kp DA_N6       &kp DA_N7       &kp DA_N8    &kp DA_N9        &kp N0  &kp DELETE
 &kp LSHFT      &trans     &trans     &trans     &trans     &trans       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP       &kp RIGHT_ARROW  &trans  &kp INS
-&kp LA(LCTRL)  &trans     &trans     &trans     &trans     &trans       &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP  &kp END          &trans  &kp DELETE
+&kp LA(LCTRL)  &trans     &trans     &trans     &trans     &trans       &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP  &kp END          &trans  &trans
                                      &kp LGUI   &mo 3      &kp SPACE    &kp RET         &trans          &trans
             >;
         };
